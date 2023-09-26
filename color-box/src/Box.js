@@ -6,6 +6,7 @@ const Box = ({ id, width, height, backgroundColor, removeBox }) => {
   return (
     <div className="Box">
       <div
+        className="Box-box"
         style={{
           width: `${width}px`,
           height: `${height}px`,

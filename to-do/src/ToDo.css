@@ -1,0 +1,45 @@
+.ToDo {
+  margin: 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+}
+
+.ToDo-text {
+  margin: 10px;
+  font-size: 20px;
+  flex: 1;
+}
+
+.ToDo-remove {
+  font-size: 20px;
+  color: red;
+  cursor: pointer;
+}
+
+.ToDo-edit {
+  color: green;
+  cursor: pointer;
+}
+
+.ToDo-edit-form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 20px;
+}
+
+.ToDo-edit-form input {
+  font-size: 20px;
+  flex: 1;
+  margin-right: 10px;
+}
+
+.ToDo-edit-form button {
+  font-size: 20px;
+}
+
+.ToDo-edit-form button:hover {
+  color: green;
+}
